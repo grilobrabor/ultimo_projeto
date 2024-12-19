@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="Elsa.css" />
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        </style>
+</head>
+<body>
+
+    <div id="conteudo">
+        <h1 id="descoberta"> ELSA!</h1>
+        <img src="elsa.jpeg" alt="Elsa">
+        <p><strong>Parabéns, você é a Elsa!</strong></p>
+        <p>Você tem o coração forte, a mente corajosa e, claro, um poder incrível! Assim como a Elsa, você sabe o que é enfrentar desafios, superar medos e, no final, encontrar a verdadeira força dentro de si. Seu poder de controlar o gelo e a neve pode ser imenso, mas o maior de todos os poderes é o amor e a aceitação de quem você realmente é.
+
+            <p>Você é uma verdadeira rainha, que aprendeu a equilibrar sua força e vulnerabilidade, e agora está pronta para enfrentar qualquer desafio que surgir no seu caminho — seja com coragem, confiança ou até mesmo com a ajuda dos amigos.
+            </p>
+           <p> Dica da Elsa: Não tenha medo de ser quem você é. Liberte-se de qualquer insegurança e saiba que, assim como a Elsa, você pode conquistar o que desejar quando confiar em si mesmo e nas pessoas ao seu redor!
+        </p>
+          <p> <strong> Agora, que tal construir o seu próprio castelo de gelo? ❄️✨</strong></p>
+    </div>
+
+    <script>
+        let contElsa = localStorage.getItem('Elsa')
+
+        document.querySelector('#votos').innerHTML='votos' +contElsa
+    </script>
+</body>
+</html>
